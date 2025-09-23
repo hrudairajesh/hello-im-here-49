@@ -1,30 +1,30 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Code, Palette, Database, Zap } from "lucide-react";
+import { Code, Cpu, Wrench, Lightbulb } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
     {
       icon: Code,
-      title: "Frontend Development",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js", "Angular"],
+      title: "Programming",
+      skills: ["Python", "MATLAB", "C", "Arduino", "Assembly", "Verilog", "Web Scraping", "API"],
       color: "text-primary"
     },
     {
-      icon: Database,
-      title: "Backend Development",
-      skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "Express", "Django"],
+      icon: Cpu,
+      title: "Engineering Software",
+      skills: ["CYMEdist", "PVsyst", "ArcGIS", "Power BI", "NI Multisim", "LTSPICE", "PCB Design"],
       color: "text-accent"
     },
     {
-      icon: Palette,
-      title: "Design & UX",
-      skills: ["Figma", "Adobe XD", "Responsive Design", "User Research", "Prototyping"],
+      icon: Wrench,
+      title: "Lab & Hardware",
+      skills: ["Soldering", "Oscilloscope", "DMM", "FPGA", "PCBs", "Circuit Analysis", "Drill Press"],
       color: "text-primary"
     },
     {
-      icon: Zap,
-      title: "Tools & Technologies",
-      skills: ["Git", "Docker", "AWS", "CI/CD", "Testing", "Agile"],
+      icon: Lightbulb,
+      title: "Design & CAD",
+      skills: ["Fusion 360", "SolidWorks", "Microsoft Office", "Machine Learning", "GIS Analysis"],
       color: "text-accent"
     }
   ];
@@ -38,7 +38,7 @@ const Skills = () => {
               Skills & <span className="gradient-text">Expertise</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              A comprehensive toolkit for building modern digital solutions
+              From power systems analysis to software development and leadership
             </p>
           </div>
           
@@ -80,12 +80,12 @@ const Skills = () => {
             <Card className="inline-block max-w-2xl" style={{ boxShadow: 'var(--shadow-elevated)' }}>
               <CardContent className="p-8">
                 <h3 className="text-2xl font-serif font-semibold mb-4 gradient-text">
-                  Always Learning
+                  Core Strengths
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Technology evolves rapidly, and so do I. I'm constantly exploring new frameworks, 
-                  languages, and methodologies to stay at the forefront of web development. 
-                  Currently diving deep into AI/ML integration and Web3 technologies.
+                  Combining electrical engineering expertise with software development skills, 
+                  I excel at data analysis, project management, and technical communication. 
+                  Currently focused on power systems, renewable energy, and digital transformation.
                 </p>
               </CardContent>
             </Card>

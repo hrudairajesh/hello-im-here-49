@@ -21,8 +21,8 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            A passionate developer crafting beautiful digital experiences 
-            with modern technologies and creative solutions.
+            Electrical Engineering Student at UBC | Co-founder of VibeOps | 
+            IEEE Chair | Building innovative solutions with Python, MATLAB, and web technologies
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -35,13 +35,13 @@ const Hero = () => {
             
             <div className="flex gap-4">
               <Button variant="outline" size="lg" className="border-primary/20 hover:bg-primary/5" asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/hrudai-rajesh" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
               
               <Button variant="outline" size="lg" className="border-primary/20 hover:bg-primary/5" asChild>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/hrudai-rajesh-24793125b" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>

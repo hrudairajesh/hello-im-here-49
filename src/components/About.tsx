@@ -10,27 +10,26 @@ const About = () => {
               About <span className="gradient-text">Me</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Passionate about creating meaningful digital experiences through code
+              Electrical Engineering Student & Co-founder building innovative solutions
             </p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="animate-fade-in-up">
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                I'm a dedicated developer with a passion for creating innovative solutions 
-                that make a difference. With expertise in modern web technologies, I focus 
-                on building applications that are not only functional but also beautiful 
-                and user-friendly.
+                I'm an Electrical Engineering student at UBC with a passion for power systems, 
+                renewable energy, and digital solutions. As Co-founder of VibeOps, I lead a 
+                startup delivering GIS-driven web platforms and engineering software tools.
               </p>
               
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, 
-                contributing to open source projects, or sharing knowledge with the 
-                developer community.
+                Currently serving as IEEE UBC Student Branch Chair, I've organized career fairs, 
+                technical workshops, and represented the branch at national conferences. My experience 
+                spans from BC Hydro distribution planning to solar energy analysis in the Philippines.
               </p>
               
               <div className="flex flex-wrap gap-3">
-                {['Problem Solving', 'Creative Thinking', 'Team Collaboration', 'Continuous Learning'].map((trait) => (
+                {['Leadership', 'Engineering Design', 'Data Analysis', 'Project Management'].map((trait) => (
                   <span 
                     key={trait}
                     className="px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-medium"
@@ -50,22 +49,22 @@ const About = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
                     <span className="text-muted-foreground">Location</span>
-                    <span className="font-medium">Your City, Country</span>
+                    <span className="font-medium">Vancouver, BC</span>
                   </div>
                   
                   <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">Experience</span>
-                    <span className="font-medium">X+ Years</span>
+                    <span className="text-muted-foreground">Education</span>
+                    <span className="font-medium">UBC Electrical Engineering</span>
                   </div>
                   
                   <div className="flex justify-between items-center">
                     <span className="text-muted-foreground">Focus</span>
-                    <span className="font-medium">Full-Stack Development</span>
+                    <span className="font-medium">Power Systems & Software</span>
                   </div>
                   
                   <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">Availability</span>
-                    <span className="font-medium text-accent">Open to opportunities</span>
+                    <span className="text-muted-foreground">Role</span>
+                    <span className="font-medium text-accent">IEEE Chair & Co-founder</span>
                   </div>
                 </div>
               </CardContent>

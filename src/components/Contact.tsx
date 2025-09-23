@@ -7,21 +7,21 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com",
+      value: "hrudairajesh@gmail.com",
+      href: "mailto:hrudairajesh@gmail.com",
       color: "text-primary"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+1 (778) 893-2102",
+      href: "tel:+17788932102",
       color: "text-accent"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Your City, Country",
+      value: "Vancouver, BC",
       href: "#",
       color: "text-primary"
     }
@@ -31,20 +31,14 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/hrudai-rajesh",
       color: "hover:text-primary"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/hrudai-rajesh-24793125b",
       color: "hover:text-primary"
-    },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      href: "https://twitter.com",
-      color: "hover:text-accent"
     }
   ];
 
@@ -130,7 +124,7 @@ const Contact = () => {
                     style={{ boxShadow: 'var(--shadow-soft)' }}
                     asChild
                   >
-                    <a href="mailto:your.email@example.com">
+                    <a href="mailto:hrudairajesh@gmail.com">
                       <Mail className="mr-2 h-5 w-5" />
                       Send a Message
                     </a>
