@@ -31,7 +31,7 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/hrudai-rajesh",
+      href: "https://github.com/hrudairajesh",
       color: "hover:text-primary"
     },
     {
