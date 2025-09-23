@@ -35,7 +35,7 @@ const Hero = () => {
             
             <div className="flex gap-4">
               <Button variant="outline" size="lg" className="border-primary/20 hover:bg-primary/5" asChild>
-                <a href="https://github.com/hrudai-rajesh" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/hrudairajesh" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
