@@ -59,7 +59,7 @@ const About = () => {
                   </div>
                   
                   <div className="flex justify-between items-center">
-                    <span className="text-muted-foreground">IEEE Chair & Co-founder</span>
+                    <span className="text-muted-foreground">Former IEEE Chair & VibeOps Co-founder</span>
                     <span className="font-medium text-accent">Open to opportunities</span>
                   </div>
                 </div>
