@@ -23,7 +23,7 @@ const About = () => {
               </p>
               
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Currently serving as IEEE UBC Student Branch Chair, I've organized career fairs, 
+                Previously serving as IEEE UBC Student Branch Chair, I've organized career fairs, 
                 technical workshops, and represented the branch at national conferences. My experience 
                 spans from BC Hydro distribution planning to solar energy analysis in the Philippines.
               </p>
