@@ -8,27 +8,15 @@ const Footer = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/hrudairajesh",
       color: "hover:text-primary"
     },
     {
       icon: Linkedin,
       label: "LinkedIn", 
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/hrudai-rajesh-24793125b/",
       color: "hover:text-primary"
     },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      href: "https://twitter.com",
-      color: "hover:text-accent"
-    },
-    {
-      icon: Mail,
-      label: "Email",
-      href: "mailto:your.email@example.com",
-      color: "hover:text-accent"
-    }
   ];
 
   const scrollToTop = () => {
