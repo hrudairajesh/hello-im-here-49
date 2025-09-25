@@ -45,7 +45,7 @@ const Footer = () => {
               onClick={scrollToTop}
               className="text-2xl font-serif font-bold gradient-text hover:opacity-80 transition-opacity mb-4 block"
             >
-              Your Name
+              Hrudai Rajesh
             </button>
             <p className="text-muted-foreground">
               Crafting digital experiences with passion and precision.
@@ -77,9 +77,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center md:text-right">
             <p className="text-muted-foreground flex items-center justify-center md:justify-end gap-1">
-              © {currentYear} Made with 
-              <Heart className="h-4 w-4 text-accent" /> 
-              by Your Name
+              © {currentYear} Hrudai Rajesh
             </p>
           </div>
         </div>
